@@ -1,0 +1,18 @@
+--> To comment, use //
+--> To bring the pop up, alert("text")
+--> JS treats all the numners as numbers(not a int, float, etc)
+--> String is enclosed within double quotes
+--> Booleans are smaller case true & false
+--> There are two moew types of data types: undefined & null.
+--> TO clear the console, clear()
+--> Basic arithmetic operators are similar to python except "/" operator returns absolute float value.
+-->Strings can be concated using "+" operator.
+--> Escape sequences exists. eg: "/n", "/t" & "/" to escape somethiong in string.
+--> "string".length returns the length of string.
+--> "string"[index in number] return the position of individual char.
+--> To define variable, use // var VarName = value;
+--> To print in console, console.log("text to print")
+--> To get user input, prompt("text to ask: ")
+--> To store user input in variable, var temp = prompt("Enter something: ")
+
+
