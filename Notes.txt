@@ -1,5 +1,5 @@
 --> To comment, use //
---> To bring the pop up, alert("text")
+--> To bring the pop up, alert("text");
 --> JS treats all the numners as numbers(not a int, float, etc)
 --> String is enclosed within double quotes
 --> Booleans are smaller case true & false
@@ -14,5 +14,7 @@
 --> To print in console, console.log("text to print")
 --> To get user input, prompt("text to ask: ")
 --> To store user input in variable, var temp = prompt("Enter something: ")
+--> To connect js file to html, use <script src="file.js"></script>
+--> All the logics can be written inside .js file, so that it will be displayed in html.
 
 
