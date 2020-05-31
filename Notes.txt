@@ -16,5 +16,9 @@
 --> To store user input in variable, var temp = prompt("Enter something: ")
 --> To connect js file to html, use <script src="file.js"></script>
 --> All the logics can be written inside .js file, so that it will be displayed in html.
+--> && - AND, || - OR, ! - NOT
+--> <,>,,<=,>=
+--> "2" == 2 will return true in js but it should not be (string annot be equal to number). To get absolute, use "2" === 2
+
 
 
