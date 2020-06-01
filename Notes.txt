@@ -25,7 +25,7 @@ use "2" === 2
 --> To break the loop, use break;
 -->To increment, use x=x+1 or x+=1 or x++
 --> There are three types of for loops. The basic one syntax is,
-for (var i=0, i<5, i++){
+for (var i=0; i<5; i++){
 	logic to be executed
 }
 --> Function syntax: function function_name(parameter1, parameter2){
@@ -37,5 +37,15 @@ function function_name(parameter1="Hello", parameter2="hello"){
 	logic to be executed
 }
 --> var temp = function_name() will store the returned value from function.
+--> var array_name =[1,2,3]
+--> Indexing & replacing the elements in array is similar to python.
+--> array_name.pop() to remove last element & array_name.push("4") to add the elemet to array at last.
+--> Element inside array can have multiple datatypes & nested arrays are possible.
+--> Array is mutable & String is immutable.
+--> For/of loop: for (temp_variable of array_name){
+	console.log(temp_variable)
+}
+This is similar to python for loop.
+--> array_name.forEach(function_name) -- This will execte the function with each element of array each time.
 
 
