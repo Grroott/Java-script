@@ -47,5 +47,16 @@ function function_name(parameter1="Hello", parameter2="hello"){
 }
 This is similar to python for loop.
 --> array_name.forEach(function_name) -- This will execte the function with each element of array each time.
-
+--> Objects in js is similar to dict in python.
+--> temp_dict={one="temp", two:2}
+--> while declaring, the key values cannot be enclosed in quotes but while retrieving through index, it should be enclosed in quotes. eg: temp_dict["one"]
+--> Objects is mutable.
+--> console.dir(temp_dict) should ○7lso work.
+--> Function can be written in place of value in js object. Eg:
+var temp = {one="tt",
+two: function(){
+	return this.one
+}}
+--> This keyword is used to reference the key in that js object.
+--> The function can be called separately as normal function. The function name is TWO.
 
