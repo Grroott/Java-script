@@ -28,7 +28,14 @@ use "2" === 2
 for (var i=0, i<5, i++){
 	logic to be executed
 }
-
-
+--> Function syntax: function function_name(parameter1, parameter2){
+	logic to be executed
+}
+--> when function_name() is entered, it will execute the function but if only function_name is typed, it will print the logic written in the function.
+--> It is possible to assing the value to the variable like ,
+function function_name(parameter1="Hello", parameter2="hello"){
+	logic to be executed
+}
+--> var temp = function_name() will store the returned value from function.
 
 
