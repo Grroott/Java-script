@@ -80,3 +80,7 @@ temt.innerHTML = <strong> HTML to be changed </strong> -- TO use the HTML tag.
 temp.getAttribute("href")
 --> To change it to something, 
 temp.setAttribute("href", "www.google.com")
+--> addEventListener is used to add few more interaction to website.
+varible.addEventListener("event", function(){
+	// logic to the event
+})
