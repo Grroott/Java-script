@@ -60,3 +60,23 @@ two: function(){
 --> This keyword is used to reference the key in that js object.
 --> The function can be called separately as normal function. The function name is TWO.
 
+**********************************************************************************************************************************************************************************************************************************************
+
+Document Object Model:
+
+--> Document object model is used to interface Java scrit code to interact with HTML.
+--> console.dir(document) to get all the skeleton of the web page.
+--> Few of the attributes are document.url, document.body, document.head & document.links.
+--> Most used methods in DOM are, document.getElementById("id_name"), document..getElementByClassName("class_name"), document.getElementByTagName("tag_name"), document.querySelector("#id"), document..querySelectorAll(".class").
+Note: the last two method uses CSS, pass ("#id") for id, (".class") for class name & ("tag") for tag name.
+--> To change the color of header, 
+var temp=document.getElementByTagName("h1")
+temp.style.color='red'
+-->The above methods will return complete tags once called. To modify the content, store that in var and try below,
+var temp=document.getElementByTagName("h1")
+temp.textContent="text to be changed"
+temt.innerHTML = <strong> HTML to be changed </strong> -- TO use the HTML tag.
+--> To get link(href), use
+temp.getAttribute("href")
+--> To change it to something, 
+temp.setAttribute("href", "www.google.com")
